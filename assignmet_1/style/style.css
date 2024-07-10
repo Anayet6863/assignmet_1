@@ -350,6 +350,11 @@
     color: rgb(13, 19, 33);
     font-weight: 400;
 }
+.cardpara{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
 .current-target-card1 {
     border-radius: 10px;
@@ -451,7 +456,7 @@
     margin-right: 15px;
 }
 .footer p{
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 600;
     color: rgb(13, 19, 33);
 
