@@ -287,16 +287,11 @@
 .inspiration {
 
 
-    width: 852px;
-    height: 50px;
     display: flex;
     flex-direction: column;
-    margin-left: 250px;
     align-items: center;
-    margin-top: 50px;
-    
 
-    
+
 }
 
 .inspiration h2 {
@@ -316,7 +311,7 @@
     margin-top: 10px;
     margin-bottom: 20px;
     width: 500px;
-   
+
 }
 
 .youtube iframe {
@@ -329,13 +324,79 @@
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
-    
-   
-    
+
+
+
 }
-.head{
+
+.head {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+}
+
+.head h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+}
+
+.head p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: rgb(13, 19, 33);
+    font-weight: 400;
+}
+
+.current-target-card1 {
+    border-radius: 10px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 20px;
+    margin-right: 15px;
+}
+
+.current-target-card2 {
+    border-radius: 10px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 20px;
+    margin-right: 15px;
+}
+
+.current-target-card3 {
+    border-radius: 10px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 20px;
+}
+
+.current-target {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+
+.support-section {
+    background-image: url(../B10A1-Challenge-Begins/assets/handshake.jpg);
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)
+}
+
+.support {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.support-info {
+    display: flex;
+    flex-direction: row;
 }
